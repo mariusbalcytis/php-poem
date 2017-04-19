@@ -1,0 +1,58 @@
+<?php
+const LOVE = 'l', Warning = '', TICKING = '', PROs = '', PERKS = '', works = '', IN = '',
+      you = 0, re = 0, it = 0, s = 0, ll = 0;
+$up = new A();
+$stuck = '1';
+$this->l = $language = $l ='l';
+$dealings = $please_be = $choice_to = $fast = $last = $or = $l0 = $yourSide = $hope = $stuff = $really = null;
+$hate = function() {};
+$this->code = function() {};
+return false;
+class A extends Exception {}
+function as_() {}
+function some() {}
+function make() {}
+function sure() {}
+function will() {}
+function ll_have_a() {}
+function are() {}
+function now() {}
+function that() {}
+function is() {}
+function thing() {}
+function best() {}
+function the() {}
+function to_drink() {}
+function succeeded() {}
+function get_it_done() {}
+function from_office_and() {}
+
+function having_fun() {
+    $contents = file_get_contents(__DIR__ . '/poetry.php');
+    list(,$code) = explode(' ', $contents, 2);
+    $poem = preg_replace('/[^a-z \'\n!:]/i', '', strtr($code, ['_' => ' ', '^' => "'", '::' => '']));
+    $poem = preg_replace('/\n |:\n/', "\n", preg_replace('/ +/', ' ', $poem));
+
+    $columns = explode("\n\n", $poem);
+    foreach ($columns as $column) {
+        $rows = explode("\n", $column);
+        foreach ($rows as $row) {
+            foreach (explode(' ', $row) as $word) {
+                usleep(50000);
+                foreach (str_split($word) as $letter) {
+                    echo $letter;
+                    usleep(35000);
+                }
+                echo ' ';
+            }
+            echo "\n";
+            usleep(500000);
+        }
+        echo "\n";
+        usleep(400000);
+    }
+    echo 'Thx, bye!';
+    sleep(10);
+    echo "\n";
+    return true;
+}
